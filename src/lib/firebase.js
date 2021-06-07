@@ -7,12 +7,12 @@ import 'firebase/auth';
 
 const config ={
 
-    apiKey: process.env.REACT_APP_API_KEY,
-    authDomain:process.env.REACT_APP_AUTH_DOMAIN ,
-    projectId: process.env.REACT_APP_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-    messagingSenderId:process.env.REACT_APP_MESSAGINGSENDER_ID ,
-    appId: process.env.REACT_APP_APP_ID
+    apiKey: "AIzaSyC7d24gyjhJyF8712jJS1j5OdasLQo4XdE",
+    authDomain: "instaclone-dbc2a.firebaseapp.com",
+    projectId: "instaclone-dbc2a",
+    storageBucket: "instaclone-dbc2a.appspot.com",
+    messagingSenderId: "385934104450",
+    appId: "1:385934104450:web:4a594d63f53fc55340a19b"
 };
 
 const firebase = Firebase.initializeApp(config);
